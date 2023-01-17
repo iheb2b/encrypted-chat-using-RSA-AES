@@ -11,7 +11,6 @@ When a user wants to send an encrypted message to another user, they use the rec
 
 The application uses sockets to transmit the messages between users. Sockets are a low-level network programming interface that allows applications to send and receive data over a network. By using sockets, the application can transmit the encrypted messages over the network in a fast and efficient manner.
 
-For authentication, the application verifies the user's identity by checking the certificate issued by a trusted certificate authority. The certificate contains information about the user's identity and is verified by the LDAP server. This ensures that only authorized users can access the chat application.
 ---------
 encrytion preccess :
 ![Diagramme sans nom drawio](https://user-images.githubusercontent.com/61081690/212868983-4e447d83-5a79-4938-a592-776844d28822.png)
